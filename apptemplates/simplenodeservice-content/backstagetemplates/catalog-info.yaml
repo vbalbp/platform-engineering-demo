@@ -14,12 +14,12 @@ metadata:
     - url: https://github.com/vbalbp/platform-engineering-demo
       title: Github Repo
       icon: github
-    - url: https://humble-space-telegram-54rvr76gwr4hv7jv-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://humble-space-telegram-54rvr76gwr4hv7jv-80.app.github.dev/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://humble-space-telegram-54rvr76gwr4hv7jv-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+      url: https://humble-space-telegram-54rvr76gwr4hv7jv-30100.app.github.dev/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
     - title: View in Dynatrace
       icon: catalog
       url: https://hyf63039.sprint.apps.dynatracelabs.com
